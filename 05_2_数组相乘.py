@@ -1,14 +1,3 @@
-# A non-empty array A consisting of N integers is given. The product of triplet (P, Q, R) equates to A[P] * A[Q] * A[R] (0 ≤ P < Q < R < N).
-
-# For example, array A such that:
-
-#   A[0] = -3
-#   A[1] = 1
-#   A[2] = 2
-#   A[3] = -2
-#   A[4] = 5
-#   A[5] = 6
-# contains the following example triplets:
 
 
 
@@ -33,6 +22,17 @@ solution([10, 10, 10] )
 solution([-5, 5, -5, 4])
 solution([1,2,3,4,5,-16,4,3,4,5,67,5,3,2,2,4])
 
+# A non-empty array A consisting of N integers is given. The product of triplet (P, Q, R) equates to A[P] * A[Q] * A[R] (0 ≤ P < Q < R < N).
+
+# For example, array A such that:
+
+#   A[0] = -3
+#   A[1] = 1
+#   A[2] = 2
+#   A[3] = -2
+#   A[4] = 5
+#   A[5] = 6
+# contains the following example triplets:
 
 
 
