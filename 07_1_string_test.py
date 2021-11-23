@@ -19,22 +19,28 @@ def solution(A):
             if arr and arr[-1] == BRACKET[c]:
                 arr.pop()
             else:
-                # print(0)
+                print(0)
                 return 0
-    # print(1)
-    return 1
+    if len(arr) == 0:
+        print(1)
+        return 1
+    else:
+        print(0)
+        return 0
 
 
 A = "(U)"
 B = "[U]"
 C = "\{U\}"
 D = "((()))((()))"
+E = "'{{{{'"
 
 
 solution(A)
 solution(B)
 solution(C)
 solution(D)
+solution(E)
 
 
 
